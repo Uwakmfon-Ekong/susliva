@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  --forest: #1B4332;
+  --forest-light: #2D6A4F;
+  --sage: #52796F;
+  --mint: #B7E4C7;
+  --cream: #FAFAF7;
+  --sand: #F0EDE4;
+  --charcoal: #1C1C1C;
+  --muted: #6B7280;
+  --accent: #E76F51;
+  --white: #FFFFFF;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--cream);
+  color: var(--charcoal);
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-up { animation: fadeUp 0.7s ease forwards; }
+
+.prose h2 { font-size: 1.4rem; font-weight: 700; margin: 2rem 0 1rem; color: var(--forest); }
+.prose p { line-height: 1.8; margin-bottom: 1.25rem; color: #374151; }
+.prose ul { list-style: disc; padding-left: 1.5rem; margin-bottom: 1.25rem; }
+.prose li { line-height: 1.7; margin-bottom: 0.5rem; color: #374151; }
+
+.nav-link { position: relative; }
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; left: 0;
+  width: 0; height: 2px;
+  background: var(--accent);
+  transition: width 0.2s ease;
+}
+.nav-link:hover::after { width: 100%; }

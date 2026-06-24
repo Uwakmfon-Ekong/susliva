@@ -1,0 +1,13 @@
+<svg width="340" height="72" viewBox="0 0 340 72" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>SUSLIVA — Sustainable Livelihood for All</title>
+  <desc>SUSLIVA logo with hands and leaf mark on dark forest green background</desc>
+  <rect width="340" height="72" rx="8" fill="#1B4332"/>
+  <circle cx="36" cy="36" r="26" fill="#2D6A4F"/>
+  <path d="M22 42 C22 30, 36 24, 36 24 C36 24, 50 30, 50 42" fill="none" stroke="#B7E4C7" stroke-width="2" stroke-linecap="round"/>
+  <path d="M25 45 C25 38, 36 34, 36 34" fill="none" stroke="#B7E4C7" stroke-width="2" stroke-linecap="round"/>
+  <path d="M47 45 C47 38, 36 34, 36 34" fill="none" stroke="#B7E4C7" stroke-width="2" stroke-linecap="round"/>
+  <line x1="36" y1="24" x2="36" y2="46" stroke="#B7E4C7" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M36 14 C39 9, 45 9, 45 14 C45 19, 36 21, 36 24 C36 21, 27 19, 27 14 C27 9, 33 9, 36 14Z" fill="#B7E4C7"/>
+  <text x="74" y="31" font-family="'Playfair Display', Georgia, serif" font-size="22" font-weight="700" fill="#FAFAF7">SUSLIVA</text>
+  <text x="75" y="52" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="500" fill="#B7E4C7" letter-spacing="0.10em">SUSTAINABLE LIVELIHOOD FOR ALL</text>
+</svg>
