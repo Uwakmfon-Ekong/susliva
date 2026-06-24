@@ -45,16 +45,9 @@ export default function ImpactPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[
-              { ...IMPACT_STORIES[0], img: "/susliva-outreach.png" },
-              { ...IMPACT_STORIES[1], img: "/susliva-outreach.png" },
-              { ...IMPACT_STORIES[2], img: "/susliva-outreach.png" },
-            ].map((story) => (
+            {IMPACT_STORIES.map((story) => (
               <div key={story.name} className="rounded-2xl overflow-hidden border" style={{ borderColor: "var(--sand)" }}>
-                <div className="relative h-48">
-                  <Image src={story.img} alt={story.name} fill className="object-cover" />
-                  <div className="absolute inset-0" style={{ background: "rgba(27,67,50,0.45)" }} />
-                </div>
+                
                 <div className="p-6">
                   <div className="font-display text-3xl mb-3" style={{ color: "var(--mint)" }}>"</div>
                   <p className="text-sm leading-relaxed mb-5" style={{ color: "var(--charcoal)" }}>{story.quote}</p>
