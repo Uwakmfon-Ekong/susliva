@@ -15,8 +15,37 @@ export const metadata: Metadata = {
   description:
     "SUSLIVA is a non-governmental organisation improving living conditions for vulnerable groups — orphans, women, youth, and persons with disabilities — across Akwa Ibom State, Nigeria since 2009.",
   keywords: ["NGO Nigeria", "Akwa Ibom", "vulnerable children", "livelihood", "donate Nigeria"],
+  metadataBase: new URL("https://susliva.org"),
+  openGraph: {
+    type: "website",
+    url: "https://susliva.org",
+    siteName: "SUSLIVA",
+    title: "SUSLIVA — Sustainable Livelihood for All",
+    description:
+      "A non-governmental organisation improving living conditions for vulnerable groups across Akwa Ibom State, Nigeria since 2009.",
+    images: [
+      {
+        url: "/susog-image.png",
+        width: 1200,
+        height: 630,
+        alt: "SUSLIVA — Sustainable Livelihood for All",
+      },
+      {
+        url: "/suslogo.svg",
+        width: 512,
+        height: 512,
+        alt: "SUSLIVA Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SUSLIVA — Sustainable Livelihood for All",
+    description:
+      "A non-governmental organisation improving living conditions for vulnerable groups across Akwa Ibom State, Nigeria since 2009.",
+    images: ["/susog-image.png"],
+  },
 };
-
 
 export default function RootLayout({
   children,

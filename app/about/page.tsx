@@ -30,6 +30,22 @@ const targetGroups = [
 const TEAM = [
   {
     name: "Precious Bassey",
+    role: "Secretary",
+    bio: "documentation in SUSLIVA.",
+    image: "/precious.jpg",
+    email: "preciousbasssey@gmail.com",
+    phone: "",
+  },
+  {
+    name: "Martins Udoh",
+    role: "Programs Coordinator",
+    bio: "programs in SUSLIVA.",
+    image: "/martins.jpg",
+    email: "martinsudoh@gmail.com",
+    phone: "",
+  },
+  {
+    name: "Ekpe Bassey",
     role: "Executive Director",
     bio: "shes in charge of documentation in SUSLIVA.",
     image: "/whakee.jpeg",
@@ -37,23 +53,7 @@ const TEAM = [
     phone: "",
   },
   {
-    name: "Precious Bassey",
-    role: "Executive Director",
-    bio: "shes in charge of documentation in SUSLIVA.",
-    image: "/whakee.jpeg",
-    email: "",
-    phone: "",
-  },
-  {
-    name: "Precious Bassey",
-    role: "Executive Director",
-    bio: "shes in charge of documentation in SUSLIVA.",
-    image: "/whakee.jpeg",
-    email: "",
-    phone: "",
-  },
-  {
-    name: "Precious Bassey",
+    name: "Bassey Bassey",
     role: "Executive Director",
     bio: "shes in charge of documentation in SUSLIVA.",
     image: "/whakee.jpeg",
